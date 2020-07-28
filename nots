@@ -1,0 +1,7 @@
+php artisan make:migration create_prodect --create=product
+اعمل جدول وسميه منتج
+php artisan migrate:rollback
+
+تراجع عن اخر شي ارسل الي قاعدة البيانات
+php artisan make:model product
+عمل  مودل
